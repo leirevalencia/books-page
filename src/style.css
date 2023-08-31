@@ -1,6 +1,74 @@
-h1 {
+body {
     font-family: "Poppins", sans-serif;
+    background:  rgb(0, 21, 38);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url("../images/libro-fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    text-align: center;
+    padding: 200px 0;
+}
+
+header h1 {
     font-size: 96px;
     font-weight: 700px;
-    line-height: 144px;
+    line-height: 1;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 24px;
+    font-weight: 900px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+header a {
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    background: white;
+    text-decoration: none;
+    color: #272044;
+    padding: 16px 32px;
+    display: inline-block;
+}
+
+@media (max-width: 900px) {
+    header {
+        padding: 60px 0;
+    }
+    header h1 {
+        font-size: 48px;
+        line-height: 30px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header h3 {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
 }
