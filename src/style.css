@@ -39,6 +39,10 @@ section.secondary {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+section.forth {
+    background: rgb(220, 216, 216);
+}
+
 /*HEADER*/
 
 header {
@@ -207,6 +211,15 @@ footer a {
     margin: 10px 0;
 }
 
+/*VIDEO*/
+.embed {
+    text-align: center;
+}
+.video {
+    width:50%;
+    aspect-ratio: 16/9;
+}
+
 @media (max-width: 960px) {
     header {
         padding: 60px 0;
@@ -228,5 +241,17 @@ footer a {
     }
     section {
         padding: 30px;
+    }
+
+    main h3 {
+        line-height: 16px;
+    }
+
+    main h3 {
+        font-size: 30px;
+    }
+
+    .text-center {
+        font-size: 30px;
     }
 }
